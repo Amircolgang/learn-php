@@ -1,6 +1,7 @@
 <?php
-    $number 
-    $isEven 
+    $number = $_POST["number"] ; 
+    $isEven = $number % 2 == 0 ;
+    if($isEven)
 ?>
 
 
@@ -13,7 +14,7 @@
 </head>
 <body>
     <form action="#">
-        <input type="text">
+        <input type="text" name="number">
     </form>
 </body>
 </html>
