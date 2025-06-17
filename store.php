@@ -12,8 +12,8 @@
 </head>
 <body>
     <form action="index.php">
-        <input type="text">
-        <input type="text">
+        <input type="text" name="product">
+        <input type="number" name="count">
         <input type="text">
     </form>
 </body>
