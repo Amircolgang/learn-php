@@ -18,7 +18,7 @@
     <title>Odd Or Even</title>
 </head>
 <body>
-    <form action="#">
+    <form action="#" method="POST">
         <input type="text" name="number">
         <input type="submit">
     </form>
