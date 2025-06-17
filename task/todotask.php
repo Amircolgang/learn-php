@@ -14,6 +14,7 @@
     <h1>Who Many Have Task ?</h1>
     <form action="index.php" method="POST">
         <input type="text" name="task">
+        <input type="submit">
     </form>
 </body>
 
