@@ -15,6 +15,7 @@
 // 
     if($_POST["name"]){
         $result  = $_POST["count"] * $_POST["price"];
+        $name = $_POST["name"]
         // echo "<span>".$result."</span>" ; 
     };
 ?>
@@ -30,7 +31,13 @@
     <span>
         Mablagh Shoma : 
     <?php 
-            echo $result
+            echo $result;
+        ?>
+    </span>
+    <span>
+        Name : 
+    <?php 
+            echo $name;
         ?>
     </span>
     
