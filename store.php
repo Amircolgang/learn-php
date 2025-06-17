@@ -8,9 +8,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sore</title>
+    <title>Dorat Hesab</title>
 </head>
 <body>
-    
+    <form action="index.php">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+    </form>
 </body>
 </html>
