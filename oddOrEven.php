@@ -12,6 +12,8 @@
     <title>Odd Or Even</title>
 </head>
 <body>
-    <form action="#" onclick=(e) => ></form>
+    <form action="#">
+        <input type="text">
+    </form>
 </body>
 </html>
