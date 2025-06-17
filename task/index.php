@@ -22,8 +22,8 @@
         </div>
     </form>
     <script>
-        let items = document.querySelectorAll("#item")
-        if()
+        // let items = document.querySelectorAll("#item")
+        // if(items.c)
     </script>
 </body>
 
