@@ -51,7 +51,7 @@ if ($_POST["name"]) {
         <span>
             Name : <<
                 <?php
-                echo $name;
+                echo ucwords($name) ;
                 ?>
                 </span>
                 >>
@@ -66,6 +66,7 @@ if ($_POST["name"]) {
     </span>
     <br>
     <button>
+        Back
         <a href="store.php">
             Click
         </a>
