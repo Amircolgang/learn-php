@@ -13,5 +13,7 @@
 //     echo '</br>' ;
 //     printf("this Number : %f",$number ) ;
 // 
-    
+    if($_POST["product"]){
+        $result  = $_POST["count"] 
+    }
 ?>
