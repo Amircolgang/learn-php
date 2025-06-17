@@ -21,7 +21,7 @@
         <br>
         <br>
         <span>Mablagh : </span>
-        <input type="number" name="count">
+        <input type="text" name="price">
         <br>
         <br>
         <input type="submit">

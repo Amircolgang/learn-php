@@ -14,6 +14,7 @@
 //     printf("this Number : %f",$number ) ;
 // 
     if($_POST["product"]){
-        $result  = $_POST["count"] 
-    }
+        $result  = $_POST["count"] * $_POST["price"];
+        echo "<span>".$result."</span>"
+    };
 ?>
