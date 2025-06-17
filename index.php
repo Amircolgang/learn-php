@@ -31,7 +31,7 @@
                 echo "Not Valid" ;
                 break;
         }
-        $result  = $_POST["count"] * $_POST["price"];
+        $result  = $_POST["count"] * $price;
         $name = $_POST["name"];
         // echo "<span>".$result."</span>" ; 
     };

@@ -24,10 +24,6 @@
         <input type="number" name="count">
         <br>
         <br>
-        <span>Mablagh : </span>
-        <input type="text" name="price">
-        <br>
-        <br>
         <input type="submit">
     </form>
 </body>
