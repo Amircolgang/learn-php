@@ -1,7 +1,12 @@
 <?php
     $number = $_POST["number"] ; 
     $isEven = $number % 2 == 0 ;
-    if($isEven)
+    $flag = true ;
+    if($isEven){
+        $flag = "Is Even" ;
+    } else {
+        $flag = "Is Odd" ;
+    };
 ?>
 
 
