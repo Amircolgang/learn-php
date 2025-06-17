@@ -13,7 +13,7 @@
 <body>
     <form action="index.php" method="POST">
         <span>Name : </span>
-        <input type="text" name="product">
+        se
         <br>
         <br>
         <span>Tedad : </span>
