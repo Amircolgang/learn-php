@@ -12,6 +12,7 @@
 </head>
 <body>
     <form action="index.php">
+        <span>Name : </span>
         <input type="text" name="product">
         <input type="number" name="count">
         <input type="text">
