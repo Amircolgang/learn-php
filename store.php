@@ -14,8 +14,13 @@
     <form action="index.php">
         <span>Name : </span>
         <input type="text" name="product">
+        <br>
+        <br>
+        <span>Tedad : </span>
         <input type="number" name="count">
-        <input type="text">
+        <br>
+        <br>
+        <input type="submit">
     </form>
 </body>
 </html>
