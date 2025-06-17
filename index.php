@@ -28,10 +28,11 @@
 </head>
 <body>
     <span>
-        <?php 
+        Mablagh Shoma : 
+    <?php 
             echo $result
         ?>
     </span>
-    s
+    
 </body>
 </html>
