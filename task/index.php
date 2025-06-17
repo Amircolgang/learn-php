@@ -8,18 +8,22 @@
 </head>
 
 <body>
-    <?php
-    $numberOfTask = $_POST["task"];
-    for ($i = 0; $i <= $numberOfTask; $i++) {
-        echo "<span>" . "Enter Your => " . $i . "</span>";
-        echo '<input type="text">';
-        echo '<input type="checkbox" id="item">';
-        echo "<br>";
-    };
-    ?>
+    <form action="#">
+        <div>
+            <?php
+            $numberOfTask = $_POST["task"];
+            for ($i = 0; $i <= $numberOfTask; $i++) {
+                echo "<span>" . "Enter Your => " . $i . "</span>";
+                echo '<input type="text">';
+                echo '<input type="checkbox" id="item">';
+                echo "<br>";
+            };
+            ?>
+        </div>
+    </form>
     <script>
         let items = document.querySelectorAll("#item")
-        if
+        if()
     </script>
 </body>
 
