@@ -45,18 +45,22 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Shoma Dar In Doreye 
+        <span>
+            Name : 
+        <?php 
+                echo $name;
+            ?>
+        </span>
+    </h1>
+    <br>
     <span>
         Mablagh Shoma : 
     <?php 
             echo $result;
         ?>
     </span>
-    <span>
-        Name : 
-    <?php 
-            echo $name;
-        ?>
-    </span>
+    <br>
     
 </body>
 </html>
