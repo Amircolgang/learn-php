@@ -14,8 +14,9 @@
 //     printf("this Number : %f",$number ) ;
 // 
     if($_POST["name"]){
+        sw
         $result  = $_POST["count"] * $_POST["price"];
-        $name = $_POST["name"]
+        $name = $_POST["name"];
         // echo "<span>".$result."</span>" ; 
     };
 ?>
