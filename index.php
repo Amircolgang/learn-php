@@ -47,7 +47,7 @@ if ($_POST["name"]) {
 </head>
 
 <body>
-    <h1>Shoma Dar In Doreye
+    <h5>Shoma Dar In Doreye
         <span>
             Name : <<
                 <?php
@@ -56,7 +56,7 @@ if ($_POST["name"]) {
                 </span>
                 >>
                 Sabte Nam Kardid
-    </h1>
+    </h5>
     <br>
     <span>
         Mablagh Shoma :
