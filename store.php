@@ -13,7 +13,11 @@
 <body>
     <form action="index.php" method="POST">
         <span>Name : </span>
-        se
+        <select name="name" >
+            <option value="js">js</option>
+            <option value="react">React</option>
+            <option value="c#">c#</option>
+        </select>
         <br>
         <br>
         <span>Tedad : </span>
