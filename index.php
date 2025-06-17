@@ -14,7 +14,16 @@
 //     printf("this Number : %f",$number ) ;
 // 
     if($_POST["name"]){
-        sw
+        $price = 0
+        switch ($_POST["name"]) {
+            case 'c#':
+
+                break;
+            
+            default:
+                echo "Not Valid" ;
+                break;
+        }
         $result  = $_POST["count"] * $_POST["price"];
         $name = $_POST["name"];
         // echo "<span>".$result."</span>" ; 
