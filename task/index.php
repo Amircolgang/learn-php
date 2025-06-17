@@ -1,0 +1,2 @@
+<?
+$numberOfTask = $_POST["task"]
