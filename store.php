@@ -11,12 +11,16 @@
     <title>Dorat Hesab</title>
 </head>
 <body>
-    <form action="index.php">
+    <form action="index.php" method="POST">
         <span>Name : </span>
         <input type="text" name="product">
         <br>
         <br>
         <span>Tedad : </span>
+        <input type="number" name="count">
+        <br>
+        <br>
+        <span>Mablagh : </span>
         <input type="number" name="count">
         <br>
         <br>
