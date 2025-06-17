@@ -14,10 +14,17 @@
 //     printf("this Number : %f",$number ) ;
 // 
     if($_POST["name"]){
-        $price = 0
+        $price = 0 ;
         switch ($_POST["name"]) {
             case 'c#':
-
+                    $price = 20;
+                break;
+            case 'js':
+                    $price = 90;
+                break;
+            
+            case 'react':
+                    $price = 1200;
                 break;
             
             default:
