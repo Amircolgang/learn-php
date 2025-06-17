@@ -47,11 +47,13 @@
 <body>
     <h1>Shoma Dar In Doreye 
         <span>
-            Name : 
+            Name : <<
         <?php 
                 echo $name;
             ?>
         </span>
+        >>
+        Sabte Nam Kardid
     </h1>
     <br>
     <span>
@@ -61,6 +63,11 @@
         ?>
     </span>
     <br>
-    
+    <button>
+        Click
+        <?php
+            header("")
+        ?>
+    </button>
 </body>
 </html>
