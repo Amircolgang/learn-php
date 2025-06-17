@@ -20,6 +20,12 @@
 <body>
     <form action="#">
         <input type="text" name="number">
+        <input type="submit">
     </form>
+    <h1>
+        <?php
+            echo $flag ; 
+        ?>
+    </h1>
 </body>
 </html>
