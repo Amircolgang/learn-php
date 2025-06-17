@@ -12,6 +12,7 @@
 </head>
 <body>
     <h1>Who Many Have Task ?</h1>
-    <input type="text" name="task" id="">
+    <form action="index.php" method="POST"></form>
+    <input type="text" name="task">
 </body>
 </html>
