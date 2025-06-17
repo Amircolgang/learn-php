@@ -1,8 +1,8 @@
 <?php
     $x = array(5,12,8,9);
     // var_dump($x) ;
-    foreach($x as $item){
-        echo $item;
+    foreach($x as $index => $item){
+        echo $index."-".$item;
         echo "<br>";
     };
 ?>
